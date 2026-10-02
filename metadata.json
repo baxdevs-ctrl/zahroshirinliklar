@@ -1,0 +1,8 @@
+{
+  "name": "Zahro SHIRINLIK dunyosi",
+  "description": "Zahro SHIRINLIK dunyosi - Har bir shirinlik baxtli lahza uchun! Nafis, premium tortlar va shirinliklar onlayn do'koni.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

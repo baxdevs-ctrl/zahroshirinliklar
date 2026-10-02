@@ -1,0 +1,587 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "slug": "tortlar",
+      "nameUz": "Tortlar",
+      "nameRu": "Торты",
+      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "productCount": 24,
+      "createdAt": "2026-10-02T05:12:37.809Z"
+    },
+    {
+      "id": "cat-2",
+      "slug": "kekslar",
+      "nameUz": "Kekslar",
+      "nameRu": "Кексы",
+      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "productCount": 18,
+      "createdAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "cat-3",
+      "slug": "pechenyelar",
+      "nameUz": "Pechenyelar",
+      "nameRu": "Печенье",
+      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "productCount": 12,
+      "createdAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "cat-4",
+      "slug": "desertlar",
+      "nameUz": "Desertlar",
+      "nameRu": "Десерты",
+      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "productCount": 10,
+      "createdAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "cat-5",
+      "slug": "shirinliklar",
+      "nameUz": "Shirinliklar",
+      "nameRu": "Сладости",
+      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "productCount": 8,
+      "createdAt": "2026-10-02T05:12:37.810Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "slug": "shokoladli-tort",
+      "nameUz": "Shokoladli tort",
+      "nameRu": "Шоколадный торт",
+      "descriptionUz": "Boy shokoladli biskvit, nozik shokolad kremi va mevali bezak bilan tayyorlangan shohona tort.",
+      "descriptionRu": "Насыщенный шоколадный бисквит, нежнейший шоколадный крем ганаш и декор из свежих ягод.",
+      "price": 250000,
+      "oldPrice": 280000,
+      "categoryId": "cat-1",
+      "categorySlug": "tortlar",
+      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "images": [
+        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 38,
+      "stock": 15,
+      "weight": "1.4 kg",
+      "ingredientsUz": "Belgiya shokoladi, tabiiy sariyog‘, tuxum, un, qaymoq 33%, kakao, yangi rezavorlar",
+      "ingredientsRu": "Бельгийский шоколад, натуральное сливочное масло, фермерские яйца, мука высшего сорта, сливки 33%, ягоды",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-2",
+      "slug": "malinali-keks",
+      "nameUz": "Malinali keks",
+      "nameRu": "Малиновый кекс",
+      "descriptionUz": "Yumshoq vanilli keks ustida pushti malina kremi va yangi terilgan malina donachalari.",
+      "descriptionRu": "Нежный капкейк с воздушным ванильным бисквитом, шапочкой из малинового крем-чиза и свежей ягодой.",
+      "price": 35000,
+      "categoryId": "cat-2",
+      "categorySlug": "kekslar",
+      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "images": [
+        "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 24,
+      "stock": 45,
+      "weight": "120 g",
+      "ingredientsUz": "Yangi malina, krem-chiz, vanil ekstrakti, sariyog‘, un, shakar",
+      "ingredientsRu": "Свежая малина, крем-чиз, натуральная ваниль, сливочное масло, мука, сахарная пудра",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-3",
+      "slug": "pishiriq-pechenye",
+      "nameUz": "Pishiriq pechenye",
+      "nameRu": "Домашнее печенье",
+      "descriptionUz": "Qo‘lda tayyorlangan yurakcha shaklidagi Linzer pechenyesi, tabiiy meva murabbosi bilan.",
+      "descriptionRu": "Хрустящее домашнее печенье Линдсер с начинкой из натурального ягодного джема в форме сердечек.",
+      "price": 20000,
+      "categoryId": "cat-3",
+      "categorySlug": "pechenyelar",
+      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "images": [
+        "/src/assets/images/cat_linzer_cookies_1790917478986.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 19,
+      "stock": 60,
+      "weight": "150 g",
+      "ingredientsUz": "Bodom uni, sariyog‘, rezavor jemi, vanil, shakar kukuni",
+      "ingredientsRu": "Миндальная мука, сливочное масло, ягодный джем, ваниль, сахарная пудра",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-4",
+      "slug": "vanilli-desert",
+      "nameUz": "Vanilli desert",
+      "nameRu": "Ванильный десерт",
+      "descriptionUz": "Qatlamli vanilli puding, mayin biskvit va barra qulupnaylar bilan shisha idishdagi parfe.",
+      "descriptionRu": "Изысканный порционный трайфл с прослойками сливочно-ванильного крема, бисквита и свежей клубники.",
+      "price": 40000,
+      "categoryId": "cat-4",
+      "categorySlug": "desertlar",
+      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "images": [
+        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 31,
+      "stock": 30,
+      "weight": "180 g",
+      "ingredientsUz": "Madagaskar vanili, maskarpone, yangi qulupnay, kofe essensiyasi, yalpiz",
+      "ingredientsRu": "Мадагаскарская ваниль, сыр маскарпоне, свежая клубника, бисквит, мята",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-5",
+      "slug": "qulupnayli-tort",
+      "nameUz": "Qulupnayli tort",
+      "nameRu": "Клубничный торт",
+      "descriptionUz": "Pushti sirlangan, yangi qulupnay va ko‘katlar bilan bezatilgan bayramona muloyim tort.",
+      "descriptionRu": "Праздничный торт с розовой зеркальной глазурью, украшенный спелой клубникой, черникой и цветами.",
+      "price": 280000,
+      "oldPrice": 320000,
+      "categoryId": "cat-1",
+      "categorySlug": "tortlar",
+      "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg",
+      "images": [
+        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 52,
+      "stock": 12,
+      "weight": "1.6 kg",
+      "ingredientsUz": "Yangi qulupnay, qaymoqli krem-chiz, vanilli shifon biskvit, tabiiy meva pyuresi",
+      "ingredientsRu": "Свежая клубника, крем-чиз на сливках, ванильный бисквит, натуральное ягодное пюре",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-6",
+      "slug": "red-velvet",
+      "nameUz": "Red Velvet",
+      "nameRu": "Красный бархат",
+      "descriptionUz": "Klassik Amerika retsepti asosidagi baxmal biskvit va nozik nordon-shirin pishloqli krem.",
+      "descriptionRu": "Легендарный торт с влажными рубиновыми коржами и нежнейшим сливочным сырным кремом.",
+      "price": 220000,
+      "categoryId": "cat-1",
+      "categorySlug": "tortlar",
+      "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg",
+      "images": [
+        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 47,
+      "stock": 18,
+      "weight": "1.3 kg",
+      "ingredientsUz": "Kakao, kefir, krem-chiz, tabiiy rang beruvchi lavlagi ekstrakti, sariyog‘",
+      "ingredientsRu": "Какао, крем-чиз, натуральный экстракт свеклы, сливочное масло, ваниль",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-7",
+      "slug": "pista-tort",
+      "nameUz": "Pista tort",
+      "nameRu": "Фисташковый торт",
+      "descriptionUz": "Haqiqiy Eron pistasi pastasi, yengil qatlamlar va morina rezavorlari uyg‘unligi.",
+      "descriptionRu": "Авторский торт с натуральной фисташковой пастой, малиновым конфи и бархатным муссом.",
+      "price": 260000,
+      "categoryId": "cat-1",
+      "categorySlug": "tortlar",
+      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "images": [
+        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 29,
+      "stock": 10,
+      "weight": "1.5 kg",
+      "ingredientsUz": "Pista pastasi, butun maydalangan pista, oq shokolad, malina jeli",
+      "ingredientsRu": "Фисташковая паста, дробленые фисташки, белый бельгийский шоколад, малина",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-8",
+      "slug": "cheesecake",
+      "nameUz": "Cheesecake",
+      "nameRu": "Чизкейк Нью-Йорк",
+      "descriptionUz": "Pechda pishirilgan mayin pishloqli qatlam, qarsildoq qum xamiri va rezavor sous.",
+      "descriptionRu": "Классический запеченный чизкейк из нежнейшего сыра Филадельфия с хрустящей песочной основой.",
+      "price": 190000,
+      "categoryId": "cat-4",
+      "categorySlug": "desertlar",
+      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "images": [
+        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 36,
+      "stock": 14,
+      "weight": "1.1 kg",
+      "ingredientsUz": "Philadelphia pishlog‘i, qaymoq, limon sharbati, qum pechenyesi asosi",
+      "ingredientsRu": "Сливочный сыр Филадельфия, сливки, сок сицилийского лимона, песочная основа",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-9",
+      "slug": "shokoladli-trufellar",
+      "nameUz": "Shokoladli trufellar",
+      "nameRu": "Шоколадные трюфели",
+      "descriptionUz": "Qo‘lda yumaloqlangan, oltin changi va yong‘oq sepilgan nozik shokoladli konfetlar to‘plami.",
+      "descriptionRu": "Набор изысканных трюфелей ручной работы с темным шоколадом, фундуком и пищевым золотом.",
+      "price": 85000,
+      "categoryId": "cat-5",
+      "categorySlug": "shirinliklar",
+      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "images": [
+        "/src/assets/images/cat_truffle_sweets_1790917515405.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 22,
+      "stock": 25,
+      "weight": "250 g",
+      "ingredientsUz": "To‘q qora shokolad 70%, o‘rmon yong‘og‘i, tabiiy qaymoq, kakao upasi",
+      "ingredientsRu": "Темный шоколад 70%, фундук, натуральные сливки, какао-порошок премиум",
+      "isFeatured": true,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-10",
+      "slug": "qulupnayli-kapkeyk",
+      "nameUz": "Qulupnayli kapkeyk",
+      "nameRu": "Клубничный капкейк",
+      "descriptionUz": "Pushti kremli, shirin xushbo‘y kapkeyklar to‘plami.",
+      "descriptionRu": "Воздушный капкейк с клубничным кремом и ароматной посыпкой.",
+      "price": 32000,
+      "categoryId": "cat-2",
+      "categorySlug": "kekslar",
+      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "images": [
+        "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 15,
+      "stock": 40,
+      "weight": "110 g",
+      "ingredientsUz": "Un, tuxum, sariyog‘, qulupnayli muzqaymoq kremi",
+      "ingredientsRu": "Мука, яйца, сливочное масло, клубничный крем",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-11",
+      "slug": "bodomli-pechenye",
+      "nameUz": "Bodomli pechenye",
+      "nameRu": "Миндальное печенье",
+      "descriptionUz": "Bodom parchalari sepilgan xushbo‘y, og‘izda eriydigan sariyog‘li pishiriq.",
+      "descriptionRu": "Рассыпчатое сливочное печенье с обжаренными миндальными лепестками.",
+      "price": 25000,
+      "categoryId": "cat-3",
+      "categorySlug": "pechenyelar",
+      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "images": [
+        "/src/assets/images/cat_linzer_cookies_1790917478986.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 18,
+      "stock": 50,
+      "weight": "200 g",
+      "ingredientsUz": "Bodom un va barglari, sariyog‘, shakar, tuxum oqi",
+      "ingredientsRu": "Миндальные лепестки, сливочное масло, сахар, белок",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-12",
+      "slug": "tiramisu-desert",
+      "nameUz": "Tiramisu desert",
+      "nameRu": "Десерт Тирамису",
+      "descriptionUz": "Italyancha klassik Savoyardi pechenyelari, espresso va xushbo‘y maskarpone kremi.",
+      "descriptionRu": "Настоящее итальянское лакомство на основе печенья Савоярди, эспрессо и крема маскарпоне.",
+      "price": 45000,
+      "categoryId": "cat-4",
+      "categorySlug": "desertlar",
+      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "images": [
+        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 41,
+      "stock": 22,
+      "weight": "190 g",
+      "ingredientsUz": "Savoyardi, espresso, maskarpone, kakao, vanil",
+      "ingredientsRu": "Савоярди, свежесваренный эспрессо, маскарпоне, какао",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-13",
+      "slug": "panna-cotta",
+      "nameUz": "Panna Cotta",
+      "nameRu": "Панна-котта с ягодами",
+      "descriptionUz": "Yumshoq italyancha qaymoqli desert, yangi mevali jem bilan birgalikda.",
+      "descriptionRu": "Нежнейший сливочный десерт родом из Пьемонта с топпингом из лесных ягод.",
+      "price": 42000,
+      "categoryId": "cat-4",
+      "categorySlug": "desertlar",
+      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "images": [
+        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 27,
+      "stock": 28,
+      "weight": "170 g",
+      "ingredientsUz": "Qaymoq 33%, tabiiy vanil, o‘rmon mevalari jele qatlami",
+      "ingredientsRu": "Сливки 33%, натуральная ваниль, желе из лесных ягод",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-14",
+      "slug": "sharqona-lokum",
+      "nameUz": "Sharqona lokum & shirinliklar",
+      "nameRu": "Восточные сладости ассорти",
+      "descriptionUz": "Anor, pista va atirgul suvi bilan tayyorlangan mayin sharqona lokum to‘plami.",
+      "descriptionRu": "Набор восточных лакомств ручной работы с гранатом, фисташками и ароматом дамасской розы.",
+      "price": 95000,
+      "categoryId": "cat-5",
+      "categorySlug": "shirinliklar",
+      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "images": [
+        "/src/assets/images/cat_truffle_sweets_1790917515405.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 16,
+      "stock": 35,
+      "weight": "350 g",
+      "ingredientsUz": "Anor sharbati, pista, makkajo‘xori kraxmali, atirgul suvi",
+      "ingredientsRu": "Гранатовый сок, фисташки, кукурузный крахмал, розовая вода",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    },
+    {
+      "id": "prod-15",
+      "slug": "shokoladli-kruassan",
+      "nameUz": "Shokoladli kruassan",
+      "nameRu": "Шоколадный круассан",
+      "descriptionUz": "Fransuzcha qat-qat xamirdan tayyorlangan qarsildoq va shokoladga to‘la kruassan.",
+      "descriptionRu": "Хрустящий круассан из многослойного французского теста с начинкой из темного шоколада.",
+      "price": 28000,
+      "categoryId": "cat-3",
+      "categorySlug": "pechenyelar",
+      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "images": [
+        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 33,
+      "stock": 20,
+      "weight": "130 g",
+      "ingredientsUz": "Fransuz sariyog‘i, qora shokolad, un, sut",
+      "ingredientsRu": "Сливочное масло, темный шоколад, мука высшего сорта, фермерское молоко",
+      "isFeatured": false,
+      "isActive": true,
+      "createdAt": "2026-10-02T05:12:37.810Z",
+      "updatedAt": "2026-10-02T05:12:37.810Z"
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "Zulayho Karimova",
+      "phone": "+998901112233",
+      "address": "Yunusobod 12-mavze",
+      "deliveryDate": "2026-10-03",
+      "deliveryTime": "14:00 - 16:00",
+      "comment": "Lenta pushti bo‘lsin",
+      "paymentMethod": "click",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Shokoladli tort",
+          "quantity": 1,
+          "price": 250000,
+          "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+        }
+      ],
+      "subtotal": 250000,
+      "deliveryPrice": 35000,
+      "total": 285000,
+      "id": "ord-1790917983219",
+      "orderNumber": "ZH-000104",
+      "status": "Yangi",
+      "createdAt": "2026-10-02T05:13:03.219Z"
+    },
+    {
+      "id": "ord-1",
+      "orderNumber": "ZH-000101",
+      "customerName": "Nilufar Usmonova",
+      "phone": "+998 90 123 45 67",
+      "address": "Toshkent sh., Yunusobod t., 4-mavze, 15-uy",
+      "deliveryDate": "2026-10-02",
+      "deliveryTime": "14:00 - 16:00",
+      "comment": "Iltimos, lentasi pushti rangda bo‘lsin.",
+      "paymentMethod": "click",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productName": "Qulupnayli tort",
+          "quantity": 1,
+          "price": 280000,
+          "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Malinali keks",
+          "quantity": 2,
+          "price": 35000,
+          "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+        }
+      ],
+      "subtotal": 350000,
+      "deliveryPrice": 0,
+      "total": 350000,
+      "status": "Tayyorlanmoqda",
+      "createdAt": "2026-10-02T01:12:37.810Z"
+    },
+    {
+      "id": "ord-2",
+      "orderNumber": "ZH-000102",
+      "customerName": "Dilnoza Rahimova",
+      "phone": "+998 93 987 65 43",
+      "address": "Toshkent sh., Mirzo Ulug‘bek t., Buyuk Ipak Yo‘li, 88",
+      "deliveryDate": "2026-10-02",
+      "deliveryTime": "16:00 - 18:00",
+      "comment": "Tort ustiga \"Tug‘ilgan kuning bilan!\" yozilsin",
+      "paymentMethod": "payme",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Shokoladli tort",
+          "quantity": 1,
+          "price": 250000,
+          "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+        }
+      ],
+      "subtotal": 250000,
+      "deliveryPrice": 35000,
+      "total": 285000,
+      "status": "Yangi",
+      "createdAt": "2026-10-02T03:12:37.810Z"
+    },
+    {
+      "id": "ord-3",
+      "orderNumber": "ZH-000099",
+      "customerName": "Shahlo Karimova",
+      "phone": "+998 97 555 44 33",
+      "address": "Toshkent sh., Chilonzor t., 9-mavze, 21-uy",
+      "deliveryDate": "2026-10-01",
+      "deliveryTime": "12:00 - 14:00",
+      "comment": "",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productName": "Cheesecake",
+          "quantity": 1,
+          "price": 190000,
+          "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        },
+        {
+          "productId": "prod-4",
+          "productName": "Vanilli desert",
+          "quantity": 2,
+          "price": 40000,
+          "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        }
+      ],
+      "subtotal": 270000,
+      "deliveryPrice": 35000,
+      "total": 305000,
+      "status": "Yetkazildi",
+      "createdAt": "2026-10-01T05:12:37.810Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "msg-1",
+      "name": "Madina Alimova",
+      "phone": "+998 90 777 88 99",
+      "email": "madina@gmail.com",
+      "message": "To‘y uchun 3 qavatli maxsus buyurtma tort buyurtma qilsak bo‘ladimi?",
+      "isRead": false,
+      "createdAt": "2026-10-02T00:12:37.810Z"
+    },
+    {
+      "id": "msg-2",
+      "name": "Jasur Saidov",
+      "phone": "+998 94 111 22 33",
+      "email": "jasur@inbox.uz",
+      "message": "Korporativ bayram uchun 50 ta desert to‘plami kerak edi.",
+      "isRead": true,
+      "createdAt": "2026-09-30T05:12:37.810Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "name": "Zahro Admin",
+      "role": "admin",
+      "passwordHash": "cccd8b64e8c3dfe806396fcc5f72f57d4277e0eafa15b28f64446e61c0edc0cc4e5a030b0827959837a750ff71505a4cdf4a60dd3b16cace40d390d9480db4fb",
+      "salt": "73ca294aae5c49b3534a9e2cbcf3660a"
+    }
+  ],
+  "settings": {
+    "storeName": "Zahro SHIRINLIK dunyosi",
+    "phone": "+998 90 123 45 67",
+    "email": "zahro@shirinlik.uz",
+    "address": "Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko‘chasi, 12-uy",
+    "deliveryPrice": 35000,
+    "freeDeliveryThreshold": 300000,
+    "telegram": "https://t.me/zahro_shirinlik",
+    "instagram": "https://instagram.com/zahro_shirinlik",
+    "tiktok": "https://tiktok.com/@zahro_shirinlik",
+    "youtube": "https://youtube.com/@zahro_shirinlik"
+  }
+}
