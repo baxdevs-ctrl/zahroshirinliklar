@@ -62,7 +62,7 @@ export const AdminDashboardPage: React.FC<AdminDashboardPageProps> = ({
     price: 250000,
     oldPrice: 0,
     categoryId: '',
-    image: '/src/assets/images/hero_pink_cake_1790917416304.jpg',
+    image: '/images/hero_pink_cake.jpg',
     stock: 20,
     weight: '1.2 kg',
     ingredientsUz: 'Tabiiy shokolad, un, sariyog‘, tuxum',
@@ -75,7 +75,7 @@ export const AdminDashboardPage: React.FC<AdminDashboardPageProps> = ({
   const [categoryForm, setCategoryForm] = useState({
     nameUz: '',
     nameRu: '',
-    image: '/src/assets/images/cat_chocolate_cake_1790917450877.jpg',
+    image: '/images/cat_chocolate_cake.jpg',
   });
 
   const loadAll = async () => {
@@ -119,7 +119,7 @@ export const AdminDashboardPage: React.FC<AdminDashboardPageProps> = ({
       price: 250000,
       oldPrice: 0,
       categoryId: categories[0]?.id || 'cat-1',
-      image: '/src/assets/images/hero_pink_cake_1790917416304.jpg',
+      image: '/images/hero_pink_cake.jpg',
       stock: 20,
       weight: '1.2 kg',
       ingredientsUz: 'Tabiiy shokolad, sariyog‘, tuxum, mevalar',

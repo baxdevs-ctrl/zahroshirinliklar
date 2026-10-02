@@ -12,15 +12,15 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
 
   const slides = [
     {
-      image: '/src/assets/images/hero_pink_cake_1790917416304.jpg',
+      image: '/images/hero_pink_cake.jpg',
       alt: 'Zahro Malinali va qulupnayli shohona bayram torti',
     },
     {
-      image: '/src/assets/images/cat_chocolate_cake_1790917450877.jpg',
+      image: '/images/cat_chocolate_cake.jpg',
       alt: 'Zahro Belgiyalik qora shokoladli tort',
     },
     {
-      image: '/src/assets/images/cat_pink_cupcakes_1790917464226.jpg',
+      image: '/images/cat_pink_cupcakes.jpg',
       alt: 'Zahro Nafis malinali kapkeyklar to‘plami',
     },
   ];

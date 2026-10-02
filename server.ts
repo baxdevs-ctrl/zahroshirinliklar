@@ -16,7 +16,9 @@ async function startServer() {
   app.use(express.json({ limit: '10mb' }));
   app.use(express.urlencoded({ extended: true }));
 
-  // Static assets serving for images in src/assets
+  // Static assets serving for images and public files
+  app.use(express.static(path.join(__dirname, 'public')));
+  app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
   app.use('/src/assets', express.static(path.join(__dirname, 'src', 'assets')));
 
   // REST API routes

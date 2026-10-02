@@ -17,7 +17,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onLearnMore }) => {
           <div className="lg:col-span-5">
             <div className="relative aspect-4/3 sm:aspect-4/3 rounded-3xl overflow-hidden shadow-lg border-4 border-white bg-white group">
               <img
-                src="/src/assets/images/about_female_chef_1790917434108.jpg"
+                src="/images/about_female_chef.jpg"
                 alt="Zahro mahoratli qandolatchisi"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"

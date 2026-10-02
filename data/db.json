@@ -5,7 +5,7 @@
       "slug": "tortlar",
       "nameUz": "Tortlar",
       "nameRu": "Торты",
-      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "image": "/images/cat_chocolate_cake.jpg",
       "productCount": 24,
       "createdAt": "2026-10-02T05:12:37.809Z"
     },
@@ -14,7 +14,7 @@
       "slug": "kekslar",
       "nameUz": "Kekslar",
       "nameRu": "Кексы",
-      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "image": "/images/cat_pink_cupcakes.jpg",
       "productCount": 18,
       "createdAt": "2026-10-02T05:12:37.810Z"
     },
@@ -23,7 +23,7 @@
       "slug": "pechenyelar",
       "nameUz": "Pechenyelar",
       "nameRu": "Печенье",
-      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "image": "/images/cat_linzer_cookies.jpg",
       "productCount": 12,
       "createdAt": "2026-10-02T05:12:37.810Z"
     },
@@ -32,7 +32,7 @@
       "slug": "desertlar",
       "nameUz": "Desertlar",
       "nameRu": "Десерты",
-      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "image": "/images/cat_parfait_dessert.jpg",
       "productCount": 10,
       "createdAt": "2026-10-02T05:12:37.810Z"
     },
@@ -41,7 +41,7 @@
       "slug": "shirinliklar",
       "nameUz": "Shirinliklar",
       "nameRu": "Сладости",
-      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "image": "/images/cat_truffle_sweets.jpg",
       "productCount": 8,
       "createdAt": "2026-10-02T05:12:37.810Z"
     }
@@ -58,10 +58,10 @@
       "oldPrice": 280000,
       "categoryId": "cat-1",
       "categorySlug": "tortlar",
-      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "image": "/images/cat_chocolate_cake.jpg",
       "images": [
-        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
-        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+        "/images/cat_chocolate_cake.jpg",
+        "/images/hero_pink_cake.jpg"
       ],
       "rating": 5,
       "reviewCount": 38,
@@ -84,9 +84,9 @@
       "price": 35000,
       "categoryId": "cat-2",
       "categorySlug": "kekslar",
-      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "image": "/images/cat_pink_cupcakes.jpg",
       "images": [
-        "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+        "/images/cat_pink_cupcakes.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 24,
@@ -109,9 +109,9 @@
       "price": 20000,
       "categoryId": "cat-3",
       "categorySlug": "pechenyelar",
-      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "image": "/images/cat_linzer_cookies.jpg",
       "images": [
-        "/src/assets/images/cat_linzer_cookies_1790917478986.jpg"
+        "/images/cat_linzer_cookies.jpg"
       ],
       "rating": 4.8,
       "reviewCount": 19,
@@ -134,9 +134,9 @@
       "price": 40000,
       "categoryId": "cat-4",
       "categorySlug": "desertlar",
-      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "image": "/images/cat_parfait_dessert.jpg",
       "images": [
-        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        "/images/cat_parfait_dessert.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 31,
@@ -160,9 +160,9 @@
       "oldPrice": 320000,
       "categoryId": "cat-1",
       "categorySlug": "tortlar",
-      "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg",
+      "image": "/images/hero_pink_cake.jpg",
       "images": [
-        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+        "/images/hero_pink_cake.jpg"
       ],
       "rating": 5,
       "reviewCount": 52,
@@ -185,9 +185,9 @@
       "price": 220000,
       "categoryId": "cat-1",
       "categorySlug": "tortlar",
-      "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg",
+      "image": "/images/hero_pink_cake.jpg",
       "images": [
-        "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+        "/images/hero_pink_cake.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 47,
@@ -210,9 +210,9 @@
       "price": 260000,
       "categoryId": "cat-1",
       "categorySlug": "tortlar",
-      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "image": "/images/cat_chocolate_cake.jpg",
       "images": [
-        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+        "/images/cat_chocolate_cake.jpg"
       ],
       "rating": 5,
       "reviewCount": 29,
@@ -235,9 +235,9 @@
       "price": 190000,
       "categoryId": "cat-4",
       "categorySlug": "desertlar",
-      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "image": "/images/cat_parfait_dessert.jpg",
       "images": [
-        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        "/images/cat_parfait_dessert.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 36,
@@ -260,9 +260,9 @@
       "price": 85000,
       "categoryId": "cat-5",
       "categorySlug": "shirinliklar",
-      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "image": "/images/cat_truffle_sweets.jpg",
       "images": [
-        "/src/assets/images/cat_truffle_sweets_1790917515405.jpg"
+        "/images/cat_truffle_sweets.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 22,
@@ -285,9 +285,9 @@
       "price": 32000,
       "categoryId": "cat-2",
       "categorySlug": "kekslar",
-      "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg",
+      "image": "/images/cat_pink_cupcakes.jpg",
       "images": [
-        "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+        "/images/cat_pink_cupcakes.jpg"
       ],
       "rating": 4.8,
       "reviewCount": 15,
@@ -310,9 +310,9 @@
       "price": 25000,
       "categoryId": "cat-3",
       "categorySlug": "pechenyelar",
-      "image": "/src/assets/images/cat_linzer_cookies_1790917478986.jpg",
+      "image": "/images/cat_linzer_cookies.jpg",
       "images": [
-        "/src/assets/images/cat_linzer_cookies_1790917478986.jpg"
+        "/images/cat_linzer_cookies.jpg"
       ],
       "rating": 4.8,
       "reviewCount": 18,
@@ -335,9 +335,9 @@
       "price": 45000,
       "categoryId": "cat-4",
       "categorySlug": "desertlar",
-      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "image": "/images/cat_parfait_dessert.jpg",
       "images": [
-        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        "/images/cat_parfait_dessert.jpg"
       ],
       "rating": 5,
       "reviewCount": 41,
@@ -360,9 +360,9 @@
       "price": 42000,
       "categoryId": "cat-4",
       "categorySlug": "desertlar",
-      "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg",
+      "image": "/images/cat_parfait_dessert.jpg",
       "images": [
-        "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+        "/images/cat_parfait_dessert.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 27,
@@ -385,9 +385,9 @@
       "price": 95000,
       "categoryId": "cat-5",
       "categorySlug": "shirinliklar",
-      "image": "/src/assets/images/cat_truffle_sweets_1790917515405.jpg",
+      "image": "/images/cat_truffle_sweets.jpg",
       "images": [
-        "/src/assets/images/cat_truffle_sweets_1790917515405.jpg"
+        "/images/cat_truffle_sweets.jpg"
       ],
       "rating": 4.8,
       "reviewCount": 16,
@@ -410,9 +410,9 @@
       "price": 28000,
       "categoryId": "cat-3",
       "categorySlug": "pechenyelar",
-      "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg",
+      "image": "/images/cat_chocolate_cake.jpg",
       "images": [
-        "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+        "/images/cat_chocolate_cake.jpg"
       ],
       "rating": 4.9,
       "reviewCount": 33,
@@ -428,6 +428,31 @@
   ],
   "orders": [
     {
+      "customerName": "nosirjonov abdulaziz",
+      "phone": "+998 994922929",
+      "address": "namnagan ilmhub",
+      "deliveryDate": "2026-10-02",
+      "deliveryTime": "14:00 - 16:00",
+      "comment": "",
+      "paymentMethod": "cash",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productName": "Cheesecake",
+          "quantity": 2,
+          "price": 190000,
+          "image": "/images/cat_parfait_dessert.jpg"
+        }
+      ],
+      "subtotal": 380000,
+      "deliveryPrice": 0,
+      "total": 380000,
+      "id": "ord-1790918226527",
+      "orderNumber": "ZH-000105",
+      "status": "Yangi",
+      "createdAt": "2026-10-02T05:17:06.527Z"
+    },
+    {
       "customerName": "Zulayho Karimova",
       "phone": "+998901112233",
       "address": "Yunusobod 12-mavze",
@@ -441,7 +466,7 @@
           "productName": "Shokoladli tort",
           "quantity": 1,
           "price": 250000,
-          "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+          "image": "/images/cat_chocolate_cake.jpg"
         }
       ],
       "subtotal": 250000,
@@ -468,14 +493,14 @@
           "productName": "Qulupnayli tort",
           "quantity": 1,
           "price": 280000,
-          "image": "/src/assets/images/hero_pink_cake_1790917416304.jpg"
+          "image": "/images/hero_pink_cake.jpg"
         },
         {
           "productId": "prod-2",
           "productName": "Malinali keks",
           "quantity": 2,
           "price": 35000,
-          "image": "/src/assets/images/cat_pink_cupcakes_1790917464226.jpg"
+          "image": "/images/cat_pink_cupcakes.jpg"
         }
       ],
       "subtotal": 350000,
@@ -500,7 +525,7 @@
           "productName": "Shokoladli tort",
           "quantity": 1,
           "price": 250000,
-          "image": "/src/assets/images/cat_chocolate_cake_1790917450877.jpg"
+          "image": "/images/cat_chocolate_cake.jpg"
         }
       ],
       "subtotal": 250000,
@@ -525,14 +550,14 @@
           "productName": "Cheesecake",
           "quantity": 1,
           "price": 190000,
-          "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+          "image": "/images/cat_parfait_dessert.jpg"
         },
         {
           "productId": "prod-4",
           "productName": "Vanilli desert",
           "quantity": 2,
           "price": 40000,
-          "image": "/src/assets/images/cat_parfait_dessert_1790917498794.jpg"
+          "image": "/images/cat_parfait_dessert.jpg"
         }
       ],
       "subtotal": 270000,
